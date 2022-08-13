@@ -7,3 +7,25 @@
   font-family: arial;
   font-weight: 400;
 }
+.navbar{
+  width: 100%;
+  padding: 20px 15%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.list{display: flex;}
+.list a{font-size: 20px;
+color: white;
+padding: 20px;
+display: flex;
+}
+.logo{
+  font-size: 40px;
+  color: white;
+}
+.list:hover{
+  color: #ED8E00;
+}
