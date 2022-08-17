@@ -19,13 +19,12 @@
 .list{display: flex;}
 .list a{font-size: 20px;
 color: white;
-padding: 20px;
-display: flex;
 padding: 42px 6px;
   margin: 0 9px;
   display: flex;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 16px;
+
   position: relative;
   justify-content: center;
 }
@@ -40,7 +39,7 @@ padding: 42px 6px;
 .list a::before{
   width: 100%;
   height: 3px;
-  background: yellow;
+  background: #ED8E00;
   border-radius: 3px 3px 0 0;
   position: absolute;
   content: '';
@@ -50,4 +49,30 @@ padding: 42px 6px;
 }
 .list a:hover::before{
   transform: scaleX(1);
+}
+.navbar-search{
+  width: 290px;
+  border: 2px solid burlywood;
+  height: 30px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.navbar-search input{
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  line-height: 14px;
+}
+.navbar-search input::placeholder{
+  color: burlywood; 
+}
+.navbar-search button{
+  width: 74px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  line-height: 14px;
 }
